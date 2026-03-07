@@ -4,9 +4,8 @@ import FilterableProductTable from "./component/FilterableProductTable";
 export default function App() {
     return (
         <div>
-            {/*<Game />*/}
+            <Game />
             <FilterableProductTable />
         </div>
     )
 }
-

@@ -13,7 +13,12 @@
     "react-dom": "^19.2.1",
     "react-scripts": "^5.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint-plugin-react-hooks": "^7.0.1"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
