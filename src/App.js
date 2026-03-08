@@ -11,14 +11,18 @@ import Abc from "./component/describing-the-ui/Gallery"; // default import
  * */
 import { GalleryNameExport } from "./component/describing-the-ui/Gallery"; // named import
 
+import RenderingList from "./component/describing-the-ui/rendering-list/app";
+
 export default function App() {
     return (
         <div>
             {/*<Game />*/}
             {/*<FilterableProductTable />*/}
 
-            <Abc />
-            <GalleryNameExport />
+            {/*<Abc />*/}
+            {/*<GalleryNameExport />*/}
+
+            <RenderingList />
         </div>
     )
 }
